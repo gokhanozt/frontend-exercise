@@ -1,4 +1,4 @@
-HelloFreshGO - Front-end Exercise
+HelloFreshGO - Front-end Exercise .
 =============================================
 
 Hello and thanks for taking the time to try out the Front-end Developer test.

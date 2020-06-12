@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HelloFreshGo Website</title>
+</head>
+
+<body>
+  <header id="header" class="hide">
+    <nav class="navBar">
+      <div class="logo"> <img class=" hf-logo-form"
+          src="https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg" alt="HelloFreshGo Logo" /> </div>
+      <div class="nameContainer">
+        <p id="p1"></p>
+      </div>
+    </nav>
+    <div class="flex-grid">
+      <div id="cardWrapper"> </div>
+  </header>
+  <div id="workSpace" class="workSpace" style="">
+
+    <div class="avatar">
+      <div id="lemon"></div>
+    </div>
+
+    <div class="left">
+      <h1 class="logo">HelloFreshGo</h1>
+      <p>Pick a plan &#x2714;</p>
+      <p>Get your delivery &#x2714;</p>
+      <p>Cook, eat, enjoy! &#x2714;</p>
+    </div>
+    <div class="right">
+      <form class="loginForm sign-up" action="" name="signUp" id="signUpForm" onsubmit=""> <img class=" hf-logo-form"
+          src="https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg" alt="HelloFreshGo Logo" />
+        <h1>Sign Up</h1>
+        <div class="inline-group">
+          <div class="input-group"> <label for="firstName">Name</label> <input class="input" id="firstName"
+              name="first_name" required="required" type="text" name="first_name" /> </div>
+          <div class="input-group"> <label for="lastName">Surname</label> <input class="input" id="lastName"
+              name="last_name" required="required" type="text" name="last_name" /> </div>
+        </div>
+        <div class="input-group"> <label for="userName">Username</label> <input class="input" id="userName"
+            name="user_name" required="required" type="text" name="username" /> </div>
+        <div class="input-group"> <label for="email">E-mail</label> <input class="input" id="email" name="email"
+            required="required" type="email" name="email" /> </div>
+        <div class="input-group"> <label for="password">Password</label> <input class="input" id="password"
+            name="password" required="required" type="password" name="password" /> </div>
+        <div class="input-group"> <label for="confirmPass">Confirm Password</label> <input class="input"
+            id="confirmPass" name="corfirm_pass" required="required" type="password" name="confirmPass" /> </div>
+        <label class="container">
+          <h3>Remember me</h3> <input type="checkbox" checked="checked"> <span class="checkmark"></span>
+        </label>
+        <!-- <button class="button" onclick="myFunction(event)">Log In</button> <button class="button signUp" onclick="myFunction(event)">Sign Up</button> -->
+        <input type="submit" class="button loginUp" id="submitBtn1" value="Login" required="" disabled> <input
+          type="submit" class="button signUp" id="submitBtn" value="Sign Up" required="">
+      </form>
+      <form class="loginForm sign-up hide" action="" name="loginForm" id="loginForm" onsubmit=""> <img
+          class=" hf-logo-form" src="https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg"
+          alt="HelloFreshGo Logo">
+        <h1>Login </h1>
+        <div class="input-group"> <label for="email">E-mail</label> <input class="input" id="email" name="email"
+            required="required" type="email" name="email" /> </div>
+        <div class="input-group"> <label for="password">Password</label> <input class="input" id="password"
+            name="password" required="required" type="password" name="password" /> </div>
+
+        <label class="container">
+          <h3>Remember me</h3> <input type="checkbox" checked="checked"> <span class="checkmark"></span>
+        </label>
+        <input type="submit" class="button loginUp primaryBtn" id="submitBtn1" value="Login" required=""> <input
+          type="submit" class="button signUp" id="submitBtn" value="Sign Up" required="" disabled>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>
